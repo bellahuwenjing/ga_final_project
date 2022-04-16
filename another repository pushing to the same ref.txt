@@ -1,0 +1,55 @@
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git init
+Reinitialized existing Git repository in D:/04 JavaScript GA course/Final_Project/.git/
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git add .
+warning: adding embedded git repository: client
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> client
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached client
+hint:
+hint: See "git help submodule" for more information.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git commit -m "Redo add . for the project folder"
+[master (root-commit) db914d0] Redo add . for the project folder
+ 4 files changed, 4024 insertions(+)
+ create mode 100644 .gitignore
+ create mode 160000 client
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git remote add origin https://github.com/bellahuwenjing/ga_final_project
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git branch -M master
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git push -u origin master
+fatal: unable to access 'https://github.com/bellahuwenjing/ga_final_project/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+bella@LAPTOP-TI7OB891 MINGW64 /d/04 JavaScript GA course/Final_Project (master)
+$ git push -u origin master
+To https://github.com/bellahuwenjing/ga_final_project
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/bellahuwenjing/ga_final_project'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
